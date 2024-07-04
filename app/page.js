@@ -20,7 +20,7 @@ export default function Home() {
       <div id="navbar" className=" flex flex-row  w-full justify-end px-16 py-8">
         <a href='https://uwaterloo.ca/brand/downloads-and-resources/university-waterloo-writing-style-guide/waterloo-related-acronyms' target='_blank' className='text-mainGray baijam-semi-bold text-lg hover:opacity-60 transition-opacity duration-200'>Docs</a>
 
-        <a href='#' target='_blank'>
+        <a href='https://github.com/a4ojha/uw_acronym_finder' target='_blank'>
           <Image src={'/github.png'} alt='github logo' width={30} height={20} className="ml-8 hover:opacity-60 transition-opacity duration-200"/>
         </a>
       </div>
