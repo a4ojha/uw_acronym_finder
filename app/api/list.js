@@ -1,4 +1,9 @@
-export const list = [
+const list = [
+  {
+      "id": 20,
+      "acronym": "A-SiDIC",
+      "full_name": "Amorphous Silicon Devices and Integrated Circuits Group (now G2N)"
+  },
   {
       "id": 1,
       "acronym": "ACE",
@@ -93,11 +98,6 @@ export const list = [
       "id": 19,
       "acronym": "ASEC",
       "full_name": "Accounting Students Education Contribution"
-  },
-  {
-      "id": 20,
-      "acronym": "A-SiDIC",
-      "full_name": "Amorphous Silicon Devices and Integrated Circuits Group (now G2N)"
   },
   {
       "id": 21,
@@ -512,7 +512,7 @@ export const list = [
   {
       "id": 103,
       "acronym": "CORE",
-      "full_name": ""
+      "full_name": "Centre for Ocular Research & Education (Formerly the Centre for Contact Lens Research)"
   },
   {
       "id": 104,
@@ -690,14 +690,14 @@ export const list = [
       "full_name": "Distinguished Teaching by a Registered Student Award"
   },
   {
-      "id": 139,
-      "acronym": "E&CE",
-      "full_name": "Electrical and Computer Engineering"
-  },
-  {
       "id": 140,
       "acronym": "E Co-op",
       "full_name": "Enterprise Co-op"
+  },
+  {
+      "id": 139,
+      "acronym": "E&CE",
+      "full_name": "Electrical and Computer Engineering"
   },
   {
       "id": 141,
@@ -1454,6 +1454,12 @@ export const list = [
       "acronym": "OUF",
       "full_name": "Ontario Universities' Fair"
   },
+
+  {
+      "id": 294,
+      "acronym": "PAC-SMH",
+      "full_name": "President's Advisory Committee on Student Mental Health"
+  },
   {
       "id": 292,
       "acronym": "PACS",
@@ -1463,11 +1469,6 @@ export const list = [
       "id": 293,
       "acronym": "PACSC",
       "full_name": "Provost's Advisory Committee on Staff Compensation"
-  },
-  {
-      "id": 294,
-      "acronym": "PAC-SMH",
-      "full_name": "President's Advisory Committee on Student Mental Health"
   },
   {
       "id": 295,
@@ -1875,14 +1876,19 @@ export const list = [
       "full_name": "University of Waterloo Angel Course Environment (was replaced by LEARN)"
   },
   {
-      "id": 376,
-      "acronym": "UWAFT",
-      "full_name": "University of Waterloo Alternative Fuels Team"
+      "id": 382,
+      "acronym": "UW-URI",
+      "full_name": "University of Waterloo - Undergraduate Research Internship program"
   },
   {
       "id": 377,
       "acronym": "UWAEG",
       "full_name": "University of Waterloo Aquatic Ecology Group"
+  },
+  {
+      "id": 376,
+      "acronym": "UWAFT",
+      "full_name": "University of Waterloo Alternative Fuels Team"
   },
   {
       "id": 378,
@@ -1903,11 +1909,6 @@ export const list = [
       "id": 381,
       "acronym": "UWSP",
       "full_name": "University of Waterloo Sustainability Project"
-  },
-  {
-      "id": 382,
-      "acronym": "UW-URI",
-      "full_name": "University of Waterloo - Undergraduate Research Internship program"
   },
   {
       "id": 383,
@@ -1955,14 +1956,14 @@ export const list = [
       "full_name": "Waterloo Commercialization Office"
   },
   {
-      "id": 392,
-      "acronym": "WatForm",
-      "full_name": "Waterloo Formal Methods research group"
-  },
-  {
       "id": 393,
       "acronym": "WATER Lab",
       "full_name": "WATerloo Environmental change Research Lab"
+  },
+  {
+      "id": 392,
+      "acronym": "WatForm",
+      "full_name": "Waterloo Formal Methods research group"
   },
   {
       "id": 394,
@@ -2125,3 +2126,5 @@ export const list = [
       "full_name": "Workplace Safety and Insurance Board (Ontario)"
   }
 ]
+
+export const data = list.sort((a, b) => a.acronym.localeCompare(b.acronym));
