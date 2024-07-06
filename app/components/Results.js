@@ -29,10 +29,10 @@ const Results = ({ search, activeButtons }) => {
   })
 
   return (
-    <div className={`w-8/12 ${fade ? 'fade-in' : ''}`}>
+    <div className={`w-8/12 ${fade ? 'fade-in' : ''}`} id="results-container">
       <hr className="my-4 "/>
-      <table className="w-full text-base table-fixed">
-      <thead className="text-base text-mainGray baijam-bold uppercase">
+      <table className="w-full text-base table-fixed mb-10" id="table">
+      <thead className="text-mainGray baijam-bold uppercase">
       <tr className="">
         <th scope="col" className="py-3 pr-10 text-right col-acronym">
           Acronym
@@ -48,10 +48,10 @@ const Results = ({ search, activeButtons }) => {
             onMouseEnter={() => setHoverIndex(index)}
             onMouseLeave={() => setHoverIndex(null)}
             >  
-            <td className={`baijam-bold text-white text-base text-right pr-10 transition-colors duration-200 ${hoverIndex === index ? 'text-yellow-300' : ''}`}>
+            <td className={`baijam-bold text-white text-right pr-10 transition-colors duration-200 ${hoverIndex === index ? 'text-yellow-300' : ''}`}>
               {item.acronym}
             </td>
-            <td className={`baijam-italic text-white text-base transition-colors duration-200 ${hoverIndex === index ? 'text-yellow-300' : ''}`}>
+            <td className={`baijam-italic text-white transition-colors duration-200 ${hoverIndex === index ? 'text-yellow-300' : ''}`}>
               {item.full_name}
             </td>
           </tr>
