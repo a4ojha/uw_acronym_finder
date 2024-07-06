@@ -152,7 +152,7 @@ There are two main features of this search engine
 These features are aimed at enhancing the user experience by providing a straightforward and efficient way to navigate and understand the myriad of acronyms used at the University of Waterloo.
 
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+<!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
