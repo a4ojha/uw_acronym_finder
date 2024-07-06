@@ -42,7 +42,7 @@
     <a href="https://github.com/a4ojha/uw_acronym_finder"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/a4ojha/uw_acronym_finder">View Demo</a>
+    <a href="https://uw-acronym-finder.vercel.app">🚀 View Live</a>
     ·
     <a href="https://github.com/a4ojha/uw_acronym_finder/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
@@ -204,7 +204,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Adon Ojha - [@adon_05](https://twitter.com/adon_05)
 
-Project Link: [https://github.com/a4ojha/uw_acronym_finder](https://github.com/a4ojha/uw_acronym_finder)
+Project Link: [https://uw-acronym-finder.vercel.app](https://uw-acronym-finder.vercel.app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
