@@ -1,5 +1,14 @@
 import React, { useState, useEffect } from "react";
-import { data } from "../api/list";
+import { data } from "../api/data";
+
+// Get a random acronym/full name pair (for searchbar placeholder)
+export function getRandomEntries() {
+  let randomIndex = Math.floor(Math.random() * data.length);
+  const randomAcronym = data[randomIndex].acronym;
+  randomIndex = Math.floor(Math.random() * data.length);
+  const randomFullName = data[randomIndex].full_name;
+  return [randomAcronym, randomFullName];
+}
 
 const Results = ({ search, activeButtons }) => {
   // Fade in effect

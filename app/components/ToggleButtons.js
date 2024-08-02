@@ -12,7 +12,7 @@ const ToggleButtons = ({ activeButtons, setActiveButtons }) => {
 
   // Log the updated state whenever activeButtons changes
   useEffect(() => {
-    console.log(activeButtons);
+    // console.log(activeButtons);
   }, [activeButtons]);
   
 

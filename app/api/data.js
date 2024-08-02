@@ -170,11 +170,6 @@ const list = [
       "full_name": "Combinatorics and Optimization"
   },
   {
-      "id": 35,
-      "acronym": "C&PA or CPA",
-      "full_name": "outdated. Communications and Public Affairs is now University Communications."
-  },
-  {
       "id": 36,
       "acronym": "CACEE",
       "full_name": "Canadian Association of Career Educators & Employers"
@@ -265,11 +260,6 @@ const list = [
       "full_name": "Centre for Bioengineering and Biotechnology"
   },
   {
-      "id": 54,
-      "acronym": "CBET",
-      "full_name": "No longer in use. see CCBET"
-  },
-  {
       "id": 55,
       "acronym": "CBRPE",
       "full_name": "Centre for Behavioural Research and Program Evaluation (now Propel Centre for Population Health Impact)"
@@ -300,11 +290,6 @@ const list = [
       "full_name": "Canadian Centre of Arts and Technology"
   },
   {
-      "id": 61,
-      "acronym": "CCBET",
-      "full_name": "No longer in use. Conrad Business, Entrepreneurship and Technology Centre is now referred to as the Conrad Centre on second use."
-  },
-  {
       "id": 62,
       "acronym": "CCCI",
       "full_name": "Canadian Centre for Cultural Innovation"
@@ -328,11 +313,6 @@ const list = [
       "id": 66,
       "acronym": "CCIT",
       "full_name": "Centre of Excellence for Communications and Information Technology (OCE)"
-  },
-  {
-      "id": 67,
-      "acronym": "CCLR",
-      "full_name": "Outdated. Used to stand for the Centre for Contact Lens Research, which is now the Centre for Ocular Research & Education (CORE)"
   },
   {
       "id": 68,
@@ -528,11 +508,6 @@ const list = [
       "id": 106,
       "acronym": "CP",
       "full_name": "Centre of Excellence for Photonics (OCE)"
-  },
-  {
-      "id": 107,
-      "acronym": "CPA",
-      "full_name": "Outdated. Communications and Public Affairs is now University Communications"
   },
   {
       "id": 108,
@@ -900,11 +875,6 @@ const list = [
       "full_name": "Graduate Student Association"
   },
   {
-      "id": 181,
-      "acronym": "GSO",
-      "full_name": "Outdated. Graduate Studies Office."
-  },
-  {
       "id": 182,
       "acronym": "GSPA",
       "full_name": "Graduate Studies and Post-Doctoral Affairs (replaced GSO)"
@@ -1228,11 +1198,6 @@ const list = [
       "id": 246,
       "acronym": "MRG",
       "full_name": "Motion Research Group"
-  },
-  {
-      "id": 247,
-      "acronym": "MSC",
-      "full_name": "Outdated. Marketing and Strategic Communications (formerly CPA) is now two units: Marketing and Strategic Initiatives (MSI) and University Communications."
   },
   {
       "id": 248,
