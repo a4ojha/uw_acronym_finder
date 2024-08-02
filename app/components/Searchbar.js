@@ -53,14 +53,14 @@ const Searchbar = ({ search, setSearch }) => {
                   key={`placeholder0-${animationKey}`} // Unique key for first placeholder
                   className={`inline-block swooshIn italic`}
                 >
-                  "{placeholders[0]}"
+                  &quot;{placeholders[0]}&quot;
                 </span>
               &nbsp;&nbsp;or&nbsp;
                 <span
                   key={`placeholder1-${animationKey}`} // Unique key for second placeholder
                   className={`inline-block swooshIn italic`}
                 >
-                  "{placeholders[1]}"
+                  &quot;{placeholders[1]}&quot;
                 </span>
             </span>
           )}
