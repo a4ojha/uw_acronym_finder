@@ -47,18 +47,18 @@ const Searchbar = ({ search, setSearch }) => {
             onChange={handleChange}
           />
           {search.length === 0 && (   // display placeholder if search is empty
-            <span className="pointer-events-none absolute inset-0 flex items-center px-4 text-sm baijam-semi-bold text-mainGray placeholder-mainGray">
+            <span className="pointer-events-none absolute inset-0 flex items-center px-4 text-sm baijam-semi-bold text-mainGray placeholder-mainGray overflow-hidden whitespace-nowrap text-ellipsis">
               Try&nbsp;
                 <span
                   key={`placeholder0-${animationKey}`} // Unique key for first placeholder
-                  className={`inline-block swooshIn italic`}
+                  className="inline-block swooshIn italic"
                 >
                   &quot;{placeholders[0]}&quot;
                 </span>
               &nbsp;&nbsp;or&nbsp;
                 <span
                   key={`placeholder1-${animationKey}`} // Unique key for second placeholder
-                  className={`inline-block swooshIn italic`}
+                  className="inline-block swooshIn italic overflow-hidden whitespace-nowrap text-ellipsis"
                 >
                   &quot;{placeholders[1]}&quot;
                 </span>
