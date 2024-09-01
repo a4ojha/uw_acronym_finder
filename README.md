@@ -87,8 +87,6 @@
 
 The UW Acronym Finder is your go-to tool for decoding the myriad of acronyms you'll encounter at the University of Waterloo. Whether you're a new student trying to make sense of the campus lingo or a seasoned professor needing a quick reference, this search engine has got you covered.
 
-Happy searching!
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
