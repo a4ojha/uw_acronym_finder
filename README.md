@@ -147,8 +147,6 @@ There are two main features of this search engine
     Know the full name but not the acronym? No problem! Enter the full name, and we'll show you the corresponding acronym.  
 [![Demo2][demo-screenshot2]](https://example.com)  
 
-These features are aimed at enhancing the user experience by providing a straightforward and efficient way to navigate and understand the myriad of acronyms used at the University of Waterloo.
-
 
 <!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
 
@@ -203,13 +201,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 Adon Ojha - [@adon_05](https://twitter.com/adon_05)
 
 Project Link: [https://uw-acronym-finder.vercel.app](https://uw-acronym-finder.vercel.app)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
